@@ -1,12 +1,13 @@
 <div class="conteiner__content">
   <div class="content__cover">
-    <img src="https://www.signfix.com.au/wp-content/uploads/2017/09/placeholder-600x400.png" alt="">
+    <img src="{{photoCover}}" alt="">
   </div>
   <div class="content__title">
-    <h1>Lorem ipsum, dolor sit amet consectetur.</h1>
+    <h1>{{contentTitel}}</h1>
     <hr/>
   </div>
+  <a [routerLink]="['']"> << VOLTAR</a>
   <div class="content__description">
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sed consectetur explicabo, sint repellat obcaecati molestias aliquid aspernatur rem. Autem eum laboriosam sit saepe dolore tenetur. Voluptates dolor cum tenetur!</p>
+    <p>{{contentDescription}}</p>
   </div>
 </div>
