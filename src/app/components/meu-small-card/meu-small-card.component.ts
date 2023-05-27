@@ -13,5 +13,7 @@ export class MeuSmallCardComponent {
   cardTitulo:string = ""
   @Input()
   cardDescricao:string = ""
+  @Input()
+  Id:string = "0"
 
 }
